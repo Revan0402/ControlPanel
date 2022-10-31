@@ -12,3 +12,10 @@ function changeColor(){
     var hues = document.getElementById('hues').value
     document.getElementById("main").style.backgroundColor = hues
 }
+function start(){
+    document.getElementById("main").style.animationName = "start";
+}
+
+function stop(){  
+    document.getElementById("main").style.animationName = "";
+}
