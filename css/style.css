@@ -1,0 +1,56 @@
+*{
+    margin: 0 auto;
+    padding: 0ex;
+}
+#main{
+    width: 100px;
+    height: 100px;
+    float: left;
+    position: absolute;
+    background: red;
+    transition: 0.5s;
+}
+.control{
+    width: 300px;
+    min-height: 657px;
+    float: right;
+    position: relative;
+    z-index: 3213;
+    background: #060056;
+}
+.name{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    font-family: "@Yu Gothic UI Semibold" ;
+}
+.en , .hundur , .reng{
+    margin: 0 0 5px 10px;
+    font-size: 15px;
+    color: white;
+    font-family: "@Yu Gothic UI Semibold" ;
+}
+input , .clrslct{
+    margin-left: 10px;
+}
+.chngbttn{
+    margin: 5px 0 0 10px;
+}
+button , select{
+    cursor: pointer;
+}
+@keyframes start {
+    0%{
+        left: 200px;
+    }
+
+    50%{
+         top: 200px;
+    }
+    100%{
+        top: 200px;
+        left: 500px;
+    }
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Panel</title>
+</head>
+<body>
+    <div id="main"></div>
+    <div class="control">
+        <span class="name">Control Panel</span>
+        <br>
+
+        <span class="en">Width</span>
+        <br>
+        <input type="text" id="width"> 
+        <select name="" id="size">
+            <option value="px">px</option>
+            <option value="em">em</option>
+            <option value="rem">rem</option>
+            <option value="%">%</option>
+        </select>
+        <button type="button" class="chngbttn" onclick="changeWidth()">Change width</button>
+        <br>
+        <br>
+
+        <span class="hundur">Height</span>
+        <br>
+        <input type="text" id="height">
+        <select name="" id="size">
+            <option value="px">px</option>
+            <option value="em">em</option>
+            <option value="rem">rem</option>
+            <option value="%">%</option>
+        </select>
+        <button type="button" class="chngbttn" onclick="changeHeight()">Change height</button>
+        <br>
+        <br>
+
+        <span class="reng">Colors</span>
+        <br>
+        <select class="clrslct" name="" id="hues">
+            <option value="white">White</option>
+            <option value="wheat">Wheat</option>
+            <option value="aqua">Aqua</option>
+            <option value="blue">Blue</option>
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="darkblue">Dark blue</option>
+            <option value="darkred">Dark red</option>
+            <option value="darkgreen">Dark green</option>
+            <option value="black">Black</option>
+        </select>
+        <button type="button" class="chngbttn" onclick="changeColor()">Change color</button>
+    </div>
+</body>
+</html>
+<script src="js/script.js"></script>
