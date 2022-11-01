@@ -16,8 +16,9 @@
 .control{
     width: 300px;
     min-height: 657px;
-    float: right;
-    position: relative;
+    float: left;
+    position: fixed;
+    right: 0px;
     z-index: 3213;
     background: #060056;
 }
